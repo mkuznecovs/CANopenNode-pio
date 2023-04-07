@@ -16,7 +16,7 @@
       "-I CO_driver/include"
     ],
     "srcDir": ".",
-    "srcFilter": "-<repo/*> +<repo/CANopen.c> +<CO_driver/src/*>"
+    "srcFilter": "+<repo/*> +<CO_driver/src/*> -<repo/example> -<repo/extra>"
   },
   "frameworks": "*",
   "platforms": "*"
